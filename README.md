@@ -5,7 +5,7 @@ This effect has become pretty common in apps I've seen--namely Groupon. The imag
 
 ![Vignette Image](vignette.png)
 
-You don't need to write any code to implement this one. Just add a UIImageView to your XIB or StoryBoard and set it's class in the Interface Builder to 'MLVignetteView'. The entire implementation looks like this:
+You don't need to write any code to implement this one. Just add a UIImageView to your XIB or StoryBoard and set it's class in the Interface Builder to 'MLVignetteView' after adding its header and implementation file to your project. The entire implementation looks like this:
 
 ```
 #import "MLVignetteView.h"
