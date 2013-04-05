@@ -18,7 +18,6 @@
 		B3463F9D170761C100520814 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3463F9C170761C100520814 /* Default-568h@2x.png */; };
 		B3463FA0170761C100520814 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3463F9E170761C100520814 /* MainStoryboard.storyboard */; };
 		B3463FA3170761C100520814 /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3463FA2170761C100520814 /* MLViewController.m */; };
-		B3463FAA1707620600520814 /* FluidGeometry.png in Resources */ = {isa = PBXBuildFile; fileRef = B3463FA91707620600520814 /* FluidGeometry.png */; };
 		B3463FAC1707626F00520814 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3463FAB1707626F00520814 /* QuartzCore.framework */; };
 		B3463FB0170764C900520814 /* balloons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3463FAF170764C900520814 /* balloons.jpg */; };
 		B34640A4170E8D3C00520814 /* MLVignetteView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34640A3170E8D3B00520814 /* MLVignetteView.m */; };
@@ -41,7 +40,6 @@
 		B3463F9F170761C100520814 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B3463FA1170761C100520814 /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
 		B3463FA2170761C100520814 /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
-		B3463FA91707620600520814 /* FluidGeometry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FluidGeometry.png; sourceTree = "<group>"; };
 		B3463FAB1707626F00520814 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B3463FAF170764C900520814 /* balloons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balloons.jpg; sourceTree = "<group>"; };
 		B34640A2170E8D3B00520814 /* MLVignetteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLVignetteView.h; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				B3463FAF170764C900520814 /* balloons.jpg */,
-				B3463FA91707620600520814 /* FluidGeometry.png */,
 				B3463F8E170761C100520814 /* LayerVignette-Info.plist */,
 				B3463F8F170761C100520814 /* InfoPlist.strings */,
 				B3463F92170761C100520814 /* main.m */,
@@ -179,7 +176,6 @@
 				B3463F9B170761C100520814 /* Default@2x.png in Resources */,
 				B3463F9D170761C100520814 /* Default-568h@2x.png in Resources */,
 				B3463FA0170761C100520814 /* MainStoryboard.storyboard in Resources */,
-				B3463FAA1707620600520814 /* FluidGeometry.png in Resources */,
 				B3463FB0170764C900520814 /* balloons.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +315,7 @@
 				B3463FA8170761C100520814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
